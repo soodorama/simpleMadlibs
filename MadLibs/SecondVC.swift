@@ -22,7 +22,7 @@ class SecondVC: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destination = segue.destination as! MainVC
-        destination.data = "We are having a perfectly \(adjTextField.text!) time now. Later we will \(v1TextField.text!) and \(v2TextField.text!) in the \(nounTextField.text!). Ya BIIIIIIITTTTCCCHHHHHHHH"
+        destination.data = "We are having a perfectly \(adjTextField.text!) time now. Later we will \(v1TextField.text!) and \(v2TextField.text!) in the \(nounTextField.text!)."
     }
     
     override func viewDidLoad() {
